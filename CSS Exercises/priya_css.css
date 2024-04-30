@@ -1,0 +1,45 @@
+body {
+    background-color: #519ac4;
+}
+
+h1 {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+div p {
+    background-color: rgb(235, 198, 96);
+}
+
+h2{
+    color: #56145c;
+}
+
+#itemone {
+    color: #56145c;
+    border-top:  1px  #56145c  solid;
+}
+
+a {
+    color: red;
+}
+
+a:visited{
+    color:blue;
+}
+
+#textblock {
+    border: 5px gray solid;
+    width: 800px;
+    height: 400px;
+}
+
+form input {
+    border: 3px #56145c solid;
+}
+
+.exit {
+    background-color: blue;
+    border: 3px yellow dashed;
+}
