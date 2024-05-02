@@ -1,17 +1,13 @@
 var roster = []
 
-function addNew(name) {
-    roster.push(name);
+function addNew() {
+    var student = prompt("Input student to be added: ");
+    roster.push(student);
 }
 
-function remove(name) {
-    var loc = 0;
-    for(var i = 0; i<roster.length;i++){
-        if(roster[i] === name){
-            loc = i;
-            break;
-        }
-    }
+function remove() {
+    var student = prompt("Input student to be removed: ");
+    var loc = roster.indexOf(student);
     roster.splice(loc,1);
 }
 
@@ -21,18 +17,14 @@ function display(){
     }
 }
 
-while(true) {
-    var input = prompt("Add (a) or Remove (r) or Display (d) or Quit (q)");
-    if(input === "q") {
-        break;
-    }
+var input = "a";
+while(input !== "q") {
+    input = prompt("Add (a) or Remove (r) or Display (d) or Quit (q)");
     if(input === "a"){
-        var student = prompt("Input student to be added: ");
-        addNew(student);
+        addNew();
     } else if(input === "r"){
-        var student = prompt("Input student to be removed: ");
-        remove(student);
-    } else {
+        remove();
+    } else if(input === "d") {
         display();
     }
 }
