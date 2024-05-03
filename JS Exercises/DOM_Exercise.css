@@ -1,0 +1,13 @@
+.jumbotron{
+    margin: auto;
+    text-align: center;
+}
+
+td{
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    border: 5px solid black;
+    font-size: 100px
+  }
+  
