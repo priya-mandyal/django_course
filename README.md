@@ -28,3 +28,10 @@ Here's a screenshot of the game interface:
 
 ![Tic Tac Toe Interface](img/tic-tac-toe-interface.png)
 
+### Connect four
+Connect four is a simple game built using HTML, CSS, and JavaScript (jQuery). It allows players to drop colored chips into a grid, aiming to connect four of their chips in a row horizontally, vertically, or diagonally before their opponent does.
+
+Here's a screenshot of the game interface:
+
+![Connect four Interface](img/connect-four.png)
+
