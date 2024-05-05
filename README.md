@@ -19,7 +19,7 @@ This directory contains exercises and projects related to HTML.
 This directory contains exercises and projects related to CSS.
 
 ## JavaScript
-Covered DOM.
+Covered DOM and jQuery.
 
 ### Tic Tac Toe
 Tic Tac Toe is a simple game built using HTML, CSS, and JavaScript. It allows the user to either add "X", "O" into the 3x3 grid. There is "Restart" button to reset the game.
