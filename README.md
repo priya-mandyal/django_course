@@ -2,8 +2,6 @@
 
 This repository contains exercises and projects covered under the Udemy course. Each topic covered in the course is organized into separate directories.
 
-<!-- ![Udemy Certificate](certificate.jpg) -->
-
 ## Topics Covered
 
 1. HTML
